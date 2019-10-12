@@ -54,7 +54,7 @@ public class TC_ACMEfindCountry {
 			List<WebElement> col = currentRow.findElements(By.tagName("td"));
 			String country = col.get(4).getText();
 			System.out.println("Printing Country : " +country);
-		Thread.sleep(2000);
+		driver.findElementByLinkText("Log Out").click();
 		driver.quit();
 	}
 	
