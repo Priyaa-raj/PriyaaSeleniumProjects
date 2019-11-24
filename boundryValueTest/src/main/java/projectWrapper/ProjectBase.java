@@ -34,13 +34,13 @@ public class ProjectBase {
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		driver.get(url);
-		Thread.sleep(1000);
+		
 
 	}
 
 	@AfterMethod
 	public void closeApplication() throws InterruptedException {
-		// Thread.sleep(6000);
+		
 		driver.quit();
 	}
 

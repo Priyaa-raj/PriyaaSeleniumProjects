@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="4" ignored="0" total="13" passed="9">
+<testng-results skipped="0" failed="4" ignored="0" total="40" passed="36">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="485298" started-at="2019-10-01T00:50:24Z" finished-at="2019-10-01T00:58:30Z">
+  <suite name="Suite" duration-ms="2392246" started-at="2019-11-20T16:45:07Z" finished-at="2019-11-20T17:25:00Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="485298" started-at="2019-10-01T00:50:24Z" finished-at="2019-10-01T00:58:30Z">
+    <test name="Test" duration-ms="2392246" started-at="2019-11-20T16:45:07Z" finished-at="2019-11-20T17:25:00Z">
       <class name="boundryValueTest.TestCaseForBVA">
-        <test-method status="PASS" signature="setData()[pri:0, instance:boundryValueTest.TestCaseForBVA@14bf9759]" name="setData" is-config="true" duration-ms="15" started-at="2019-10-01T00:50:24Z" finished-at="2019-10-01T00:50:24Z">
+        <test-method status="PASS" signature="setData()[pri:0, instance:boundryValueTest.TestCaseForBVA@3327bd23]" name="setData" is-config="true" duration-ms="0" started-at="2019-11-20T16:45:07Z" finished-at="2019-11-20T16:45:07Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setData -->
-        <test-method status="PASS" signature="startApplication(java.lang.String)[pri:0, instance:boundryValueTest.TestCaseForBVA@14bf9759]" name="startApplication" is-config="true" duration-ms="7728" started-at="2019-10-01T00:50:25Z" finished-at="2019-10-01T00:50:33Z">
+        <test-method status="PASS" signature="startApplication(java.lang.String)[pri:0, instance:boundryValueTest.TestCaseForBVA@3327bd23]" name="startApplication" is-config="true" duration-ms="11807" started-at="2019-11-20T16:45:08Z" finished-at="2019-11-20T16:45:20Z">
           <params>
             <param index="0">
               <value>
@@ -22,11 +22,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startApplication -->
-        <test-method status="PASS" signature="executeBVATest(java.lang.String, java.lang.String)[pri:0, instance:boundryValueTest.TestCaseForBVA@14bf9759]" name="executeBVATest" duration-ms="32462" started-at="2019-10-01T00:50:33Z" data-provider="inputData" finished-at="2019-10-01T00:51:06Z">
+        <test-method status="PASS" signature="executeBVATest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:boundryValueTest.TestCaseForBVA@3327bd23]" name="executeBVATest" duration-ms="46742" started-at="2019-11-20T16:45:20Z" data-provider="inputData" finished-at="2019-11-20T16:46:07Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[abcrail]]>
+                <![CDATA[abcrail1]]>
               </value>
             </param>
             <param index="1">
@@ -34,15 +34,25 @@
                 <![CDATA[Abcdefg8]]>
               </value>
             </param>
+            <param index="2">
+              <value>
+                <![CDATA[Abcdefghij]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[abcdefghij@smail.com]]>
+              </value>
+            </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- executeBVATest -->
-        <test-method status="PASS" signature="closeApplication()[pri:0, instance:boundryValueTest.TestCaseForBVA@14bf9759]" name="closeApplication" is-config="true" duration-ms="952" started-at="2019-10-01T00:51:06Z" finished-at="2019-10-01T00:51:07Z">
+        <test-method status="PASS" signature="closeApplication()[pri:0, instance:boundryValueTest.TestCaseForBVA@3327bd23]" name="closeApplication" is-config="true" duration-ms="834" started-at="2019-11-20T16:46:07Z" finished-at="2019-11-20T16:46:08Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeApplication -->
-        <test-method status="PASS" signature="startApplication(java.lang.String)[pri:0, instance:boundryValueTest.TestCaseForBVA@14bf9759]" name="startApplication" is-config="true" duration-ms="7414" started-at="2019-10-01T00:51:07Z" finished-at="2019-10-01T00:51:14Z">
+        <test-method status="PASS" signature="startApplication(java.lang.String)[pri:0, instance:boundryValueTest.TestCaseForBVA@3327bd23]" name="startApplication" is-config="true" duration-ms="12041" started-at="2019-11-20T16:46:08Z" finished-at="2019-11-20T16:46:20Z">
           <params>
             <param index="0">
               <value>
@@ -53,244 +63,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startApplication -->
-        <test-method status="FAIL" signature="executeBVATest(java.lang.String, java.lang.String)[pri:0, instance:boundryValueTest.TestCaseForBVA@14bf9759]" name="executeBVATest" duration-ms="19374" started-at="2019-10-01T00:51:14Z" data-provider="inputData" finished-at="2019-10-01T00:51:33Z">
+        <test-method status="PASS" signature="executeBVATest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:boundryValueTest.TestCaseForBVA@3327bd23]" name="executeBVATest" duration-ms="43738" started-at="2019-11-20T16:46:20Z" data-provider="inputData" finished-at="2019-11-20T16:47:03Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[ab]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Abcdefg8]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[null]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: null
-at org.testng.Assert.fail(Assert.java:96)
-at org.testng.Assert.fail(Assert.java:103)
-at projectPages.RegisterationPage.verifyTest(RegisterationPage.java:33)
-at boundryValueTest.TestCaseForBVA.executeBVATest(TestCaseForBVA.java:23)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-at java.lang.Thread.run(Thread.java:748)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- executeBVATest -->
-        <test-method status="PASS" signature="closeApplication()[pri:0, instance:boundryValueTest.TestCaseForBVA@14bf9759]" name="closeApplication" is-config="true" duration-ms="1006" started-at="2019-10-01T00:51:33Z" finished-at="2019-10-01T00:51:34Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeApplication -->
-        <test-method status="PASS" signature="startApplication(java.lang.String)[pri:0, instance:boundryValueTest.TestCaseForBVA@14bf9759]" name="startApplication" is-config="true" duration-ms="8450" started-at="2019-10-01T00:51:34Z" finished-at="2019-10-01T00:51:43Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[https://www.irctc.co.in/nget/train-search]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- startApplication -->
-        <test-method status="FAIL" signature="executeBVATest(java.lang.String, java.lang.String)[pri:0, instance:boundryValueTest.TestCaseForBVA@14bf9759]" name="executeBVATest" duration-ms="17924" started-at="2019-10-01T00:51:43Z" data-provider="inputData" finished-at="2019-10-01T00:52:01Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[abcdefghijklmnopqrstuvwxyz1234567890]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Abcdefg8]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[null]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: null
-at org.testng.Assert.fail(Assert.java:96)
-at org.testng.Assert.fail(Assert.java:103)
-at projectPages.RegisterationPage.verifyTest(RegisterationPage.java:33)
-at boundryValueTest.TestCaseForBVA.executeBVATest(TestCaseForBVA.java:23)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-at java.lang.Thread.run(Thread.java:748)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- executeBVATest -->
-        <test-method status="PASS" signature="closeApplication()[pri:0, instance:boundryValueTest.TestCaseForBVA@14bf9759]" name="closeApplication" is-config="true" duration-ms="1111" started-at="2019-10-01T00:52:01Z" finished-at="2019-10-01T00:52:02Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeApplication -->
-        <test-method status="PASS" signature="startApplication(java.lang.String)[pri:0, instance:boundryValueTest.TestCaseForBVA@14bf9759]" name="startApplication" is-config="true" duration-ms="8006" started-at="2019-10-01T00:52:02Z" finished-at="2019-10-01T00:52:10Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[https://www.irctc.co.in/nget/train-search]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- startApplication -->
-        <test-method status="FAIL" signature="executeBVATest(java.lang.String, java.lang.String)[pri:0, instance:boundryValueTest.TestCaseForBVA@14bf9759]" name="executeBVATest" duration-ms="17564" started-at="2019-10-01T00:52:10Z" data-provider="inputData" finished-at="2019-10-01T00:52:27Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[abcrail]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Abcdef7]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[null]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: null
-at org.testng.Assert.fail(Assert.java:96)
-at org.testng.Assert.fail(Assert.java:103)
-at projectPages.RegisterationPage.verifyTest(RegisterationPage.java:33)
-at boundryValueTest.TestCaseForBVA.executeBVATest(TestCaseForBVA.java:23)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-at java.lang.Thread.run(Thread.java:748)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- executeBVATest -->
-        <test-method status="PASS" signature="closeApplication()[pri:0, instance:boundryValueTest.TestCaseForBVA@14bf9759]" name="closeApplication" is-config="true" duration-ms="1017" started-at="2019-10-01T00:52:27Z" finished-at="2019-10-01T00:52:28Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeApplication -->
-        <test-method status="PASS" signature="startApplication(java.lang.String)[pri:0, instance:boundryValueTest.TestCaseForBVA@14bf9759]" name="startApplication" is-config="true" duration-ms="14938" started-at="2019-10-01T00:52:28Z" finished-at="2019-10-01T00:52:43Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[https://www.irctc.co.in/nget/train-search]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- startApplication -->
-        <test-method status="PASS" signature="executeBVATest(java.lang.String, java.lang.String)[pri:0, instance:boundryValueTest.TestCaseForBVA@14bf9759]" name="executeBVATest" duration-ms="29604" started-at="2019-10-01T00:52:43Z" data-provider="inputData" finished-at="2019-10-01T00:53:13Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[abcrail]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Abcdefg890123456]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- executeBVATest -->
-        <test-method status="PASS" signature="closeApplication()[pri:0, instance:boundryValueTest.TestCaseForBVA@14bf9759]" name="closeApplication" is-config="true" duration-ms="1026" started-at="2019-10-01T00:53:13Z" finished-at="2019-10-01T00:53:14Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeApplication -->
-        <test-method status="PASS" signature="startApplication(java.lang.String)[pri:0, instance:boundryValueTest.TestCaseForBVA@14bf9759]" name="startApplication" is-config="true" duration-ms="8293" started-at="2019-10-01T00:53:14Z" finished-at="2019-10-01T00:53:22Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[https://www.irctc.co.in/nget/train-search]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- startApplication -->
-        <test-method status="PASS" signature="executeBVATest(java.lang.String, java.lang.String)[pri:0, instance:boundryValueTest.TestCaseForBVA@14bf9759]" name="executeBVATest" duration-ms="27909" started-at="2019-10-01T00:53:22Z" data-provider="inputData" finished-at="2019-10-01T00:53:50Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[abcrail]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Abcdefg8]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- executeBVATest -->
-        <test-method status="PASS" signature="closeApplication()[pri:0, instance:boundryValueTest.TestCaseForBVA@14bf9759]" name="closeApplication" is-config="true" duration-ms="930" started-at="2019-10-01T00:53:50Z" finished-at="2019-10-01T00:53:51Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeApplication -->
-        <test-method status="PASS" signature="startApplication(java.lang.String)[pri:0, instance:boundryValueTest.TestCaseForBVA@14bf9759]" name="startApplication" is-config="true" duration-ms="8837" started-at="2019-10-01T00:53:51Z" finished-at="2019-10-01T00:54:00Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[https://www.irctc.co.in/nget/train-search]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- startApplication -->
-        <test-method status="PASS" signature="executeBVATest(java.lang.String, java.lang.String)[pri:0, instance:boundryValueTest.TestCaseForBVA@14bf9759]" name="executeBVATest" duration-ms="43303" started-at="2019-10-01T00:54:00Z" data-provider="inputData" finished-at="2019-10-01T00:54:43Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[abcrail]]>
+                <![CDATA[abcrail1]]>
               </value>
             </param>
             <param index="1">
@@ -298,15 +75,25 @@ at java.lang.Thread.run(Thread.java:748)
                 <![CDATA[Abcdefg89]]>
               </value>
             </param>
+            <param index="2">
+              <value>
+                <![CDATA[Abcdefghij]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[abcdefghij@smail.com]]>
+              </value>
+            </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- executeBVATest -->
-        <test-method status="PASS" signature="closeApplication()[pri:0, instance:boundryValueTest.TestCaseForBVA@14bf9759]" name="closeApplication" is-config="true" duration-ms="984" started-at="2019-10-01T00:54:43Z" finished-at="2019-10-01T00:54:44Z">
+        <test-method status="PASS" signature="closeApplication()[pri:0, instance:boundryValueTest.TestCaseForBVA@3327bd23]" name="closeApplication" is-config="true" duration-ms="1084" started-at="2019-11-20T16:47:03Z" finished-at="2019-11-20T16:47:04Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeApplication -->
-        <test-method status="PASS" signature="startApplication(java.lang.String)[pri:0, instance:boundryValueTest.TestCaseForBVA@14bf9759]" name="startApplication" is-config="true" duration-ms="7983" started-at="2019-10-01T00:54:44Z" finished-at="2019-10-01T00:54:52Z">
+        <test-method status="PASS" signature="startApplication(java.lang.String)[pri:0, instance:boundryValueTest.TestCaseForBVA@3327bd23]" name="startApplication" is-config="true" duration-ms="12690" started-at="2019-11-20T16:47:04Z" finished-at="2019-11-20T16:47:17Z">
           <params>
             <param index="0">
               <value>
@@ -317,11 +104,52 @@ at java.lang.Thread.run(Thread.java:748)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startApplication -->
-        <test-method status="PASS" signature="executeBVATest(java.lang.String, java.lang.String)[pri:0, instance:boundryValueTest.TestCaseForBVA@14bf9759]" name="executeBVATest" duration-ms="30190" started-at="2019-10-01T00:54:52Z" data-provider="inputData" finished-at="2019-10-01T00:55:22Z">
+        <test-method status="PASS" signature="executeBVATest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:boundryValueTest.TestCaseForBVA@3327bd23]" name="executeBVATest" duration-ms="46612" started-at="2019-11-20T16:47:17Z" data-provider="inputData" finished-at="2019-11-20T16:48:04Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[abcrail]]>
+                <![CDATA[abcrail1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Abcdefg890]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Abcdefghij]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[abcdefghij@smail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- executeBVATest -->
+        <test-method status="PASS" signature="closeApplication()[pri:0, instance:boundryValueTest.TestCaseForBVA@3327bd23]" name="closeApplication" is-config="true" duration-ms="1085" started-at="2019-11-20T16:48:04Z" finished-at="2019-11-20T16:48:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+        <test-method status="PASS" signature="startApplication(java.lang.String)[pri:0, instance:boundryValueTest.TestCaseForBVA@3327bd23]" name="startApplication" is-config="true" duration-ms="12271" started-at="2019-11-20T16:48:05Z" finished-at="2019-11-20T16:48:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.irctc.co.in/nget/train-search]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startApplication -->
+        <test-method status="PASS" signature="executeBVATest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:boundryValueTest.TestCaseForBVA@3327bd23]" name="executeBVATest" duration-ms="46691" started-at="2019-11-20T16:48:17Z" data-provider="inputData" finished-at="2019-11-20T16:49:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abcrail1]]>
               </value>
             </param>
             <param index="1">
@@ -329,15 +157,25 @@ at java.lang.Thread.run(Thread.java:748)
                 <![CDATA[Abcdefg8901]]>
               </value>
             </param>
+            <param index="2">
+              <value>
+                <![CDATA[Abcdefghij]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[abcdefghij@smail.com]]>
+              </value>
+            </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- executeBVATest -->
-        <test-method status="PASS" signature="closeApplication()[pri:0, instance:boundryValueTest.TestCaseForBVA@14bf9759]" name="closeApplication" is-config="true" duration-ms="969" started-at="2019-10-01T00:55:22Z" finished-at="2019-10-01T00:55:23Z">
+        <test-method status="PASS" signature="closeApplication()[pri:0, instance:boundryValueTest.TestCaseForBVA@3327bd23]" name="closeApplication" is-config="true" duration-ms="1077" started-at="2019-11-20T16:49:04Z" finished-at="2019-11-20T16:49:05Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeApplication -->
-        <test-method status="PASS" signature="startApplication(java.lang.String)[pri:0, instance:boundryValueTest.TestCaseForBVA@14bf9759]" name="startApplication" is-config="true" duration-ms="8413" started-at="2019-10-01T00:55:23Z" finished-at="2019-10-01T00:55:32Z">
+        <test-method status="PASS" signature="startApplication(java.lang.String)[pri:0, instance:boundryValueTest.TestCaseForBVA@3327bd23]" name="startApplication" is-config="true" duration-ms="12984" started-at="2019-11-20T16:49:05Z" finished-at="2019-11-20T16:49:18Z">
           <params>
             <param index="0">
               <value>
@@ -348,11 +186,93 @@ at java.lang.Thread.run(Thread.java:748)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startApplication -->
-        <test-method status="PASS" signature="executeBVATest(java.lang.String, java.lang.String)[pri:0, instance:boundryValueTest.TestCaseForBVA@14bf9759]" name="executeBVATest" duration-ms="28312" started-at="2019-10-01T00:55:32Z" data-provider="inputData" finished-at="2019-10-01T00:56:00Z">
+        <test-method status="PASS" signature="executeBVATest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:boundryValueTest.TestCaseForBVA@3327bd23]" name="executeBVATest" duration-ms="46909" started-at="2019-11-20T16:49:18Z" data-provider="inputData" finished-at="2019-11-20T16:50:05Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[abcrail]]>
+                <![CDATA[abcrail1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Abcdefg89012]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Abcdefghij]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[abcdefghij@smail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- executeBVATest -->
+        <test-method status="PASS" signature="closeApplication()[pri:0, instance:boundryValueTest.TestCaseForBVA@3327bd23]" name="closeApplication" is-config="true" duration-ms="1143" started-at="2019-11-20T16:50:05Z" finished-at="2019-11-20T16:50:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+        <test-method status="PASS" signature="startApplication(java.lang.String)[pri:0, instance:boundryValueTest.TestCaseForBVA@3327bd23]" name="startApplication" is-config="true" duration-ms="13065" started-at="2019-11-20T16:50:06Z" finished-at="2019-11-20T16:50:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.irctc.co.in/nget/train-search]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startApplication -->
+        <test-method status="PASS" signature="executeBVATest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:boundryValueTest.TestCaseForBVA@3327bd23]" name="executeBVATest" duration-ms="47359" started-at="2019-11-20T16:50:19Z" data-provider="inputData" finished-at="2019-11-20T16:51:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abcrail1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Abcdefg89013]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Abcdefghij]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[abcdefghij@smail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- executeBVATest -->
+        <test-method status="PASS" signature="closeApplication()[pri:0, instance:boundryValueTest.TestCaseForBVA@3327bd23]" name="closeApplication" is-config="true" duration-ms="1165" started-at="2019-11-20T16:51:06Z" finished-at="2019-11-20T16:51:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+        <test-method status="PASS" signature="startApplication(java.lang.String)[pri:0, instance:boundryValueTest.TestCaseForBVA@3327bd23]" name="startApplication" is-config="true" duration-ms="13389" started-at="2019-11-20T16:51:07Z" finished-at="2019-11-20T16:51:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.irctc.co.in/nget/train-search]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startApplication -->
+        <test-method status="PASS" signature="executeBVATest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:boundryValueTest.TestCaseForBVA@3327bd23]" name="executeBVATest" duration-ms="46403" started-at="2019-11-20T16:51:21Z" data-provider="inputData" finished-at="2019-11-20T16:52:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abcrail1]]>
               </value>
             </param>
             <param index="1">
@@ -360,15 +280,25 @@ at java.lang.Thread.run(Thread.java:748)
                 <![CDATA[Abcdefg8901234]]>
               </value>
             </param>
+            <param index="2">
+              <value>
+                <![CDATA[Abcdefghij]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[abcdefghij@smail.com]]>
+              </value>
+            </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- executeBVATest -->
-        <test-method status="PASS" signature="closeApplication()[pri:0, instance:boundryValueTest.TestCaseForBVA@14bf9759]" name="closeApplication" is-config="true" duration-ms="1002" started-at="2019-10-01T00:56:00Z" finished-at="2019-10-01T00:56:01Z">
+        <test-method status="PASS" signature="closeApplication()[pri:0, instance:boundryValueTest.TestCaseForBVA@3327bd23]" name="closeApplication" is-config="true" duration-ms="1121" started-at="2019-11-20T16:52:07Z" finished-at="2019-11-20T16:52:08Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeApplication -->
-        <test-method status="PASS" signature="startApplication(java.lang.String)[pri:0, instance:boundryValueTest.TestCaseForBVA@14bf9759]" name="startApplication" is-config="true" duration-ms="13033" started-at="2019-10-01T00:56:01Z" finished-at="2019-10-01T00:56:14Z">
+        <test-method status="PASS" signature="startApplication(java.lang.String)[pri:0, instance:boundryValueTest.TestCaseForBVA@3327bd23]" name="startApplication" is-config="true" duration-ms="12877" started-at="2019-11-20T16:52:08Z" finished-at="2019-11-20T16:52:21Z">
           <params>
             <param index="0">
               <value>
@@ -379,11 +309,11 @@ at java.lang.Thread.run(Thread.java:748)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startApplication -->
-        <test-method status="PASS" signature="executeBVATest(java.lang.String, java.lang.String)[pri:0, instance:boundryValueTest.TestCaseForBVA@14bf9759]" name="executeBVATest" duration-ms="27892" started-at="2019-10-01T00:56:14Z" data-provider="inputData" finished-at="2019-10-01T00:56:42Z">
+        <test-method status="PASS" signature="executeBVATest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:boundryValueTest.TestCaseForBVA@3327bd23]" name="executeBVATest" duration-ms="46739" started-at="2019-11-20T16:52:21Z" data-provider="inputData" finished-at="2019-11-20T16:53:08Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[abcrail]]>
+                <![CDATA[abcrail1]]>
               </value>
             </param>
             <param index="1">
@@ -391,15 +321,25 @@ at java.lang.Thread.run(Thread.java:748)
                 <![CDATA[Abcdefg89012345]]>
               </value>
             </param>
+            <param index="2">
+              <value>
+                <![CDATA[Abcdefghij]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[abcdefghij@smail.com]]>
+              </value>
+            </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- executeBVATest -->
-        <test-method status="PASS" signature="closeApplication()[pri:0, instance:boundryValueTest.TestCaseForBVA@14bf9759]" name="closeApplication" is-config="true" duration-ms="965" started-at="2019-10-01T00:56:42Z" finished-at="2019-10-01T00:56:43Z">
+        <test-method status="PASS" signature="closeApplication()[pri:0, instance:boundryValueTest.TestCaseForBVA@3327bd23]" name="closeApplication" is-config="true" duration-ms="1155" started-at="2019-11-20T16:53:08Z" finished-at="2019-11-20T16:53:09Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeApplication -->
-        <test-method status="PASS" signature="startApplication(java.lang.String)[pri:0, instance:boundryValueTest.TestCaseForBVA@14bf9759]" name="startApplication" is-config="true" duration-ms="12105" started-at="2019-10-01T00:56:43Z" finished-at="2019-10-01T00:56:55Z">
+        <test-method status="PASS" signature="startApplication(java.lang.String)[pri:0, instance:boundryValueTest.TestCaseForBVA@3327bd23]" name="startApplication" is-config="true" duration-ms="13821" started-at="2019-11-20T16:53:09Z" finished-at="2019-11-20T16:53:23Z">
           <params>
             <param index="0">
               <value>
@@ -410,11 +350,11 @@ at java.lang.Thread.run(Thread.java:748)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startApplication -->
-        <test-method status="FAIL" signature="executeBVATest(java.lang.String, java.lang.String)[pri:0, instance:boundryValueTest.TestCaseForBVA@14bf9759]" name="executeBVATest" duration-ms="17323" started-at="2019-10-01T00:56:55Z" data-provider="inputData" finished-at="2019-10-01T00:57:12Z">
+        <test-method status="FAIL" signature="executeBVATest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:boundryValueTest.TestCaseForBVA@3327bd23]" name="executeBVATest" duration-ms="35805" started-at="2019-11-20T16:53:23Z" data-provider="inputData" finished-at="2019-11-20T16:53:59Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[abcrail]]>
+                <![CDATA[abcrail1]]>
               </value>
             </param>
             <param index="1">
@@ -422,17 +362,26 @@ at java.lang.Thread.run(Thread.java:748)
                 <![CDATA[Abcdef7]]>
               </value>
             </param>
+            <param index="2">
+              <value>
+                <![CDATA[Abcdefghij]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[abcdefghij@smail.com]]>
+              </value>
+            </param>
           </params>
           <exception class="java.lang.AssertionError">
             <message>
-              <![CDATA[null]]>
+              <![CDATA[Invalid Data Input]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: null
+              <![CDATA[java.lang.AssertionError: Invalid Data Input
 at org.testng.Assert.fail(Assert.java:96)
-at org.testng.Assert.fail(Assert.java:103)
-at projectPages.RegisterationPage.verifyTest(RegisterationPage.java:33)
-at boundryValueTest.TestCaseForBVA.executeBVATest(TestCaseForBVA.java:23)
+at projectPages.RegisterationPage.verifyTest(RegisterationPage.java:81)
+at boundryValueTest.TestCaseForBVA.executeBVATest(TestCaseForBVA.java:26)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -452,11 +401,11 @@ at java.lang.Thread.run(Thread.java:748)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- executeBVATest -->
-        <test-method status="PASS" signature="closeApplication()[pri:0, instance:boundryValueTest.TestCaseForBVA@14bf9759]" name="closeApplication" is-config="true" duration-ms="904" started-at="2019-10-01T00:57:12Z" finished-at="2019-10-01T00:57:13Z">
+        <test-method status="PASS" signature="closeApplication()[pri:0, instance:boundryValueTest.TestCaseForBVA@3327bd23]" name="closeApplication" is-config="true" duration-ms="1072" started-at="2019-11-20T16:53:59Z" finished-at="2019-11-20T16:54:00Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeApplication -->
-        <test-method status="PASS" signature="startApplication(java.lang.String)[pri:0, instance:boundryValueTest.TestCaseForBVA@14bf9759]" name="startApplication" is-config="true" duration-ms="8320" started-at="2019-10-01T00:57:13Z" finished-at="2019-10-01T00:57:22Z">
+        <test-method status="PASS" signature="startApplication(java.lang.String)[pri:0, instance:boundryValueTest.TestCaseForBVA@3327bd23]" name="startApplication" is-config="true" duration-ms="12211" started-at="2019-11-20T16:54:00Z" finished-at="2019-11-20T16:54:12Z">
           <params>
             <param index="0">
               <value>
@@ -467,11 +416,11 @@ at java.lang.Thread.run(Thread.java:748)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startApplication -->
-        <test-method status="PASS" signature="executeBVATest(java.lang.String, java.lang.String)[pri:0, instance:boundryValueTest.TestCaseForBVA@14bf9759]" name="executeBVATest" duration-ms="29964" started-at="2019-10-01T00:57:22Z" data-provider="inputData" finished-at="2019-10-01T00:57:52Z">
+        <test-method status="PASS" signature="executeBVATest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:boundryValueTest.TestCaseForBVA@3327bd23]" name="executeBVATest" duration-ms="46327" started-at="2019-11-20T16:54:12Z" data-provider="inputData" finished-at="2019-11-20T16:54:58Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[abcrail]]>
+                <![CDATA[abcrail1]]>
               </value>
             </param>
             <param index="1">
@@ -479,15 +428,25 @@ at java.lang.Thread.run(Thread.java:748)
                 <![CDATA[Abcdefg890123456]]>
               </value>
             </param>
+            <param index="2">
+              <value>
+                <![CDATA[Abcdefghij]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[abcdefghij@smail.com]]>
+              </value>
+            </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- executeBVATest -->
-        <test-method status="PASS" signature="closeApplication()[pri:0, instance:boundryValueTest.TestCaseForBVA@14bf9759]" name="closeApplication" is-config="true" duration-ms="1035" started-at="2019-10-01T00:57:52Z" finished-at="2019-10-01T00:57:53Z">
+        <test-method status="PASS" signature="closeApplication()[pri:0, instance:boundryValueTest.TestCaseForBVA@3327bd23]" name="closeApplication" is-config="true" duration-ms="1103" started-at="2019-11-20T16:54:58Z" finished-at="2019-11-20T16:54:59Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeApplication -->
-        <test-method status="PASS" signature="startApplication(java.lang.String)[pri:0, instance:boundryValueTest.TestCaseForBVA@14bf9759]" name="startApplication" is-config="true" duration-ms="7741" started-at="2019-10-01T00:57:53Z" finished-at="2019-10-01T00:58:00Z">
+        <test-method status="PASS" signature="startApplication(java.lang.String)[pri:0, instance:boundryValueTest.TestCaseForBVA@3327bd23]" name="startApplication" is-config="true" duration-ms="12228" started-at="2019-11-20T16:54:59Z" finished-at="2019-11-20T16:55:12Z">
           <params>
             <param index="0">
               <value>
@@ -498,7 +457,916 @@ at java.lang.Thread.run(Thread.java:748)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startApplication -->
-        <test-method status="PASS" signature="executeBVATest(java.lang.String, java.lang.String)[pri:0, instance:boundryValueTest.TestCaseForBVA@14bf9759]" name="executeBVATest" duration-ms="28358" started-at="2019-10-01T00:58:00Z" data-provider="inputData" finished-at="2019-10-01T00:58:29Z">
+        <test-method status="PASS" signature="executeBVATest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:boundryValueTest.TestCaseForBVA@3327bd23]" name="executeBVATest" duration-ms="46353" started-at="2019-11-20T16:55:12Z" data-provider="inputData" finished-at="2019-11-20T16:55:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abcrail1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Abcdefg89012]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Ab3]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[abcdefghij@smail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- executeBVATest -->
+        <test-method status="PASS" signature="closeApplication()[pri:0, instance:boundryValueTest.TestCaseForBVA@3327bd23]" name="closeApplication" is-config="true" duration-ms="1126" started-at="2019-11-20T16:55:58Z" finished-at="2019-11-20T16:55:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+        <test-method status="PASS" signature="startApplication(java.lang.String)[pri:0, instance:boundryValueTest.TestCaseForBVA@3327bd23]" name="startApplication" is-config="true" duration-ms="12995" started-at="2019-11-20T16:55:59Z" finished-at="2019-11-20T16:56:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.irctc.co.in/nget/train-search]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startApplication -->
+        <test-method status="PASS" signature="executeBVATest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:boundryValueTest.TestCaseForBVA@3327bd23]" name="executeBVATest" duration-ms="45928" started-at="2019-11-20T16:56:12Z" data-provider="inputData" finished-at="2019-11-20T16:56:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abcrail1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Abcdefg89012]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Abc4]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[abcdefghij@smail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- executeBVATest -->
+        <test-method status="PASS" signature="closeApplication()[pri:0, instance:boundryValueTest.TestCaseForBVA@3327bd23]" name="closeApplication" is-config="true" duration-ms="1065" started-at="2019-11-20T16:56:58Z" finished-at="2019-11-20T16:56:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+        <test-method status="PASS" signature="startApplication(java.lang.String)[pri:0, instance:boundryValueTest.TestCaseForBVA@3327bd23]" name="startApplication" is-config="true" duration-ms="13030" started-at="2019-11-20T16:56:59Z" finished-at="2019-11-20T16:57:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.irctc.co.in/nget/train-search]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startApplication -->
+        <test-method status="PASS" signature="executeBVATest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:boundryValueTest.TestCaseForBVA@3327bd23]" name="executeBVATest" duration-ms="45860" started-at="2019-11-20T16:57:12Z" data-provider="inputData" finished-at="2019-11-20T16:57:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abcrail1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Abcdefg89012]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Abcdefgh]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[abcdefghij@smail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- executeBVATest -->
+        <test-method status="PASS" signature="closeApplication()[pri:0, instance:boundryValueTest.TestCaseForBVA@3327bd23]" name="closeApplication" is-config="true" duration-ms="1052" started-at="2019-11-20T16:57:58Z" finished-at="2019-11-20T16:57:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+        <test-method status="PASS" signature="startApplication(java.lang.String)[pri:0, instance:boundryValueTest.TestCaseForBVA@3327bd23]" name="startApplication" is-config="true" duration-ms="12816" started-at="2019-11-20T16:57:59Z" finished-at="2019-11-20T16:58:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.irctc.co.in/nget/train-search]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startApplication -->
+        <test-method status="PASS" signature="executeBVATest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:boundryValueTest.TestCaseForBVA@3327bd23]" name="executeBVATest" duration-ms="47016" started-at="2019-11-20T16:58:12Z" data-provider="inputData" finished-at="2019-11-20T16:58:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abcrail1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Abcdefg89012]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Abcdefghij]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[abcdefghij@smail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- executeBVATest -->
+        <test-method status="PASS" signature="closeApplication()[pri:0, instance:boundryValueTest.TestCaseForBVA@3327bd23]" name="closeApplication" is-config="true" duration-ms="1103" started-at="2019-11-20T16:58:59Z" finished-at="2019-11-20T16:59:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+        <test-method status="PASS" signature="startApplication(java.lang.String)[pri:0, instance:boundryValueTest.TestCaseForBVA@3327bd23]" name="startApplication" is-config="true" duration-ms="13648" started-at="2019-11-20T16:59:00Z" finished-at="2019-11-20T16:59:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.irctc.co.in/nget/train-search]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startApplication -->
+        <test-method status="PASS" signature="executeBVATest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:boundryValueTest.TestCaseForBVA@3327bd23]" name="executeBVATest" duration-ms="45556" started-at="2019-11-20T16:59:14Z" data-provider="inputData" finished-at="2019-11-20T16:59:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abcrail1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Abcdefg89012]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Abcdefghijkl]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[abcdefghij@smail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- executeBVATest -->
+        <test-method status="PASS" signature="closeApplication()[pri:0, instance:boundryValueTest.TestCaseForBVA@3327bd23]" name="closeApplication" is-config="true" duration-ms="1088" started-at="2019-11-20T16:59:59Z" finished-at="2019-11-20T17:00:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+        <test-method status="PASS" signature="startApplication(java.lang.String)[pri:0, instance:boundryValueTest.TestCaseForBVA@3327bd23]" name="startApplication" is-config="true" duration-ms="13799" started-at="2019-11-20T17:00:00Z" finished-at="2019-11-20T17:00:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.irctc.co.in/nget/train-search]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startApplication -->
+        <test-method status="PASS" signature="executeBVATest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:boundryValueTest.TestCaseForBVA@3327bd23]" name="executeBVATest" duration-ms="47031" started-at="2019-11-20T17:00:14Z" data-provider="inputData" finished-at="2019-11-20T17:01:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abcrail1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Abcdefg89012]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Abcdefghijklmn]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[abcdefghij@smail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- executeBVATest -->
+        <test-method status="PASS" signature="closeApplication()[pri:0, instance:boundryValueTest.TestCaseForBVA@3327bd23]" name="closeApplication" is-config="true" duration-ms="1104" started-at="2019-11-20T17:01:01Z" finished-at="2019-11-20T17:01:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+        <test-method status="PASS" signature="startApplication(java.lang.String)[pri:0, instance:boundryValueTest.TestCaseForBVA@3327bd23]" name="startApplication" is-config="true" duration-ms="13776" started-at="2019-11-20T17:01:02Z" finished-at="2019-11-20T17:01:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.irctc.co.in/nget/train-search]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startApplication -->
+        <test-method status="PASS" signature="executeBVATest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:boundryValueTest.TestCaseForBVA@3327bd23]" name="executeBVATest" duration-ms="45824" started-at="2019-11-20T17:01:16Z" data-provider="inputData" finished-at="2019-11-20T17:02:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abcrail1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Abcdefg89012]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Abcdefghij123456789]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[abcdefghij@smail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- executeBVATest -->
+        <test-method status="PASS" signature="closeApplication()[pri:0, instance:boundryValueTest.TestCaseForBVA@3327bd23]" name="closeApplication" is-config="true" duration-ms="1090" started-at="2019-11-20T17:02:02Z" finished-at="2019-11-20T17:02:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+        <test-method status="PASS" signature="startApplication(java.lang.String)[pri:0, instance:boundryValueTest.TestCaseForBVA@3327bd23]" name="startApplication" is-config="true" duration-ms="11492" started-at="2019-11-20T17:02:03Z" finished-at="2019-11-20T17:02:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.irctc.co.in/nget/train-search]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startApplication -->
+        <test-method status="PASS" signature="executeBVATest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:boundryValueTest.TestCaseForBVA@3327bd23]" name="executeBVATest" duration-ms="46424" started-at="2019-11-20T17:02:14Z" data-provider="inputData" finished-at="2019-11-20T17:03:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abcrail1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Abcdefg89012]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Abcdefghij1234567890]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[abcdefghij@smail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- executeBVATest -->
+        <test-method status="PASS" signature="closeApplication()[pri:0, instance:boundryValueTest.TestCaseForBVA@3327bd23]" name="closeApplication" is-config="true" duration-ms="1004" started-at="2019-11-20T17:03:01Z" finished-at="2019-11-20T17:03:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+        <test-method status="PASS" signature="startApplication(java.lang.String)[pri:0, instance:boundryValueTest.TestCaseForBVA@3327bd23]" name="startApplication" is-config="true" duration-ms="12652" started-at="2019-11-20T17:03:02Z" finished-at="2019-11-20T17:03:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.irctc.co.in/nget/train-search]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startApplication -->
+        <test-method status="FAIL" signature="executeBVATest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:boundryValueTest.TestCaseForBVA@3327bd23]" name="executeBVATest" duration-ms="36005" started-at="2019-11-20T17:03:15Z" data-provider="inputData" finished-at="2019-11-20T17:03:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abcrail1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Abcdefg89012]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Ab]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[abcdefghij@smail.com]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Invalid Data Input]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Invalid Data Input
+at org.testng.Assert.fail(Assert.java:96)
+at projectPages.RegisterationPage.verifyTest(RegisterationPage.java:81)
+at boundryValueTest.TestCaseForBVA.executeBVATest(TestCaseForBVA.java:26)
+at sun.reflect.GeneratedMethodAccessor2.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+at java.lang.Thread.run(Thread.java:748)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- executeBVATest -->
+        <test-method status="PASS" signature="closeApplication()[pri:0, instance:boundryValueTest.TestCaseForBVA@3327bd23]" name="closeApplication" is-config="true" duration-ms="1154" started-at="2019-11-20T17:03:51Z" finished-at="2019-11-20T17:03:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+        <test-method status="PASS" signature="startApplication(java.lang.String)[pri:0, instance:boundryValueTest.TestCaseForBVA@3327bd23]" name="startApplication" is-config="true" duration-ms="12854" started-at="2019-11-20T17:03:52Z" finished-at="2019-11-20T17:04:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.irctc.co.in/nget/train-search]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startApplication -->
+        <test-method status="PASS" signature="executeBVATest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:boundryValueTest.TestCaseForBVA@3327bd23]" name="executeBVATest" duration-ms="45993" started-at="2019-11-20T17:04:05Z" data-provider="inputData" finished-at="2019-11-20T17:04:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abcrail1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Abcdefg89012]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Abcdefghij12345678901]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[abcdefghij@smail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- executeBVATest -->
+        <test-method status="PASS" signature="closeApplication()[pri:0, instance:boundryValueTest.TestCaseForBVA@3327bd23]" name="closeApplication" is-config="true" duration-ms="1025" started-at="2019-11-20T17:04:51Z" finished-at="2019-11-20T17:04:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+        <test-method status="PASS" signature="startApplication(java.lang.String)[pri:0, instance:boundryValueTest.TestCaseForBVA@3327bd23]" name="startApplication" is-config="true" duration-ms="12942" started-at="2019-11-20T17:04:52Z" finished-at="2019-11-20T17:05:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.irctc.co.in/nget/train-search]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startApplication -->
+        <test-method status="PASS" signature="executeBVATest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:boundryValueTest.TestCaseForBVA@3327bd23]" name="executeBVATest" duration-ms="46332" started-at="2019-11-20T17:05:05Z" data-provider="inputData" finished-at="2019-11-20T17:05:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abcrail1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Abcdefg89012]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Abcdefghij]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[ab@sma.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- executeBVATest -->
+        <test-method status="PASS" signature="closeApplication()[pri:0, instance:boundryValueTest.TestCaseForBVA@3327bd23]" name="closeApplication" is-config="true" duration-ms="1084" started-at="2019-11-20T17:05:51Z" finished-at="2019-11-20T17:05:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+        <test-method status="PASS" signature="startApplication(java.lang.String)[pri:0, instance:boundryValueTest.TestCaseForBVA@3327bd23]" name="startApplication" is-config="true" duration-ms="12579" started-at="2019-11-20T17:05:52Z" finished-at="2019-11-20T17:06:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.irctc.co.in/nget/train-search]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startApplication -->
+        <test-method status="PASS" signature="executeBVATest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:boundryValueTest.TestCaseForBVA@3327bd23]" name="executeBVATest" duration-ms="46236" started-at="2019-11-20T17:06:05Z" data-provider="inputData" finished-at="2019-11-20T17:06:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abcrail1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Abcdefg89012]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Abcdefghij]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[abc@sma.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- executeBVATest -->
+        <test-method status="PASS" signature="closeApplication()[pri:0, instance:boundryValueTest.TestCaseForBVA@3327bd23]" name="closeApplication" is-config="true" duration-ms="1243" started-at="2019-11-20T17:06:51Z" finished-at="2019-11-20T17:06:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+        <test-method status="PASS" signature="startApplication(java.lang.String)[pri:0, instance:boundryValueTest.TestCaseForBVA@3327bd23]" name="startApplication" is-config="true" duration-ms="12675" started-at="2019-11-20T17:06:52Z" finished-at="2019-11-20T17:07:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.irctc.co.in/nget/train-search]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startApplication -->
+        <test-method status="PASS" signature="executeBVATest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:boundryValueTest.TestCaseForBVA@3327bd23]" name="executeBVATest" duration-ms="46569" started-at="2019-11-20T17:07:05Z" data-provider="inputData" finished-at="2019-11-20T17:07:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abcrail1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Abcdefg89012]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Abcdefghij]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[abcd@smail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- executeBVATest -->
+        <test-method status="PASS" signature="closeApplication()[pri:0, instance:boundryValueTest.TestCaseForBVA@3327bd23]" name="closeApplication" is-config="true" duration-ms="1003" started-at="2019-11-20T17:07:51Z" finished-at="2019-11-20T17:07:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+        <test-method status="PASS" signature="startApplication(java.lang.String)[pri:0, instance:boundryValueTest.TestCaseForBVA@3327bd23]" name="startApplication" is-config="true" duration-ms="15863" started-at="2019-11-20T17:07:52Z" finished-at="2019-11-20T17:08:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.irctc.co.in/nget/train-search]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startApplication -->
+        <test-method status="PASS" signature="executeBVATest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:boundryValueTest.TestCaseForBVA@3327bd23]" name="executeBVATest" duration-ms="47328" started-at="2019-11-20T17:08:08Z" data-provider="inputData" finished-at="2019-11-20T17:08:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abcrail1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Abcdefg89012]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Abcdefghij]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[abcdef@smail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- executeBVATest -->
+        <test-method status="PASS" signature="closeApplication()[pri:0, instance:boundryValueTest.TestCaseForBVA@3327bd23]" name="closeApplication" is-config="true" duration-ms="1106" started-at="2019-11-20T17:08:55Z" finished-at="2019-11-20T17:08:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+        <test-method status="PASS" signature="startApplication(java.lang.String)[pri:0, instance:boundryValueTest.TestCaseForBVA@3327bd23]" name="startApplication" is-config="true" duration-ms="12920" started-at="2019-11-20T17:08:57Z" finished-at="2019-11-20T17:09:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.irctc.co.in/nget/train-search]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startApplication -->
+        <test-method status="PASS" signature="executeBVATest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:boundryValueTest.TestCaseForBVA@3327bd23]" name="executeBVATest" duration-ms="47410" started-at="2019-11-20T17:09:09Z" data-provider="inputData" finished-at="2019-11-20T17:09:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abcrail1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Abcdefg89012]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Abcdefghij]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[abcdefgh@smail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- executeBVATest -->
+        <test-method status="PASS" signature="closeApplication()[pri:0, instance:boundryValueTest.TestCaseForBVA@3327bd23]" name="closeApplication" is-config="true" duration-ms="1091" started-at="2019-11-20T17:09:57Z" finished-at="2019-11-20T17:09:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+        <test-method status="PASS" signature="startApplication(java.lang.String)[pri:0, instance:boundryValueTest.TestCaseForBVA@3327bd23]" name="startApplication" is-config="true" duration-ms="11991" started-at="2019-11-20T17:09:58Z" finished-at="2019-11-20T17:10:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.irctc.co.in/nget/train-search]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startApplication -->
+        <test-method status="PASS" signature="executeBVATest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:boundryValueTest.TestCaseForBVA@3327bd23]" name="executeBVATest" duration-ms="45909" started-at="2019-11-20T17:10:10Z" data-provider="inputData" finished-at="2019-11-20T17:10:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abcrail1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Abcdefg89012]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Abcdefghij]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[abcdefghij@smail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- executeBVATest -->
+        <test-method status="PASS" signature="closeApplication()[pri:0, instance:boundryValueTest.TestCaseForBVA@3327bd23]" name="closeApplication" is-config="true" duration-ms="1137" started-at="2019-11-20T17:10:56Z" finished-at="2019-11-20T17:10:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+        <test-method status="PASS" signature="startApplication(java.lang.String)[pri:0, instance:boundryValueTest.TestCaseForBVA@3327bd23]" name="startApplication" is-config="true" duration-ms="17303" started-at="2019-11-20T17:10:57Z" finished-at="2019-11-20T17:11:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.irctc.co.in/nget/train-search]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startApplication -->
+        <test-method status="PASS" signature="executeBVATest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:boundryValueTest.TestCaseForBVA@3327bd23]" name="executeBVATest" duration-ms="48500" started-at="2019-11-20T17:11:14Z" data-provider="inputData" finished-at="2019-11-20T17:12:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abcrail1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Abcdefg89012]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Abcdefghij]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[abcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyz1234567@smail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- executeBVATest -->
+        <test-method status="PASS" signature="closeApplication()[pri:0, instance:boundryValueTest.TestCaseForBVA@3327bd23]" name="closeApplication" is-config="true" duration-ms="1071" started-at="2019-11-20T17:12:03Z" finished-at="2019-11-20T17:12:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+        <test-method status="PASS" signature="startApplication(java.lang.String)[pri:0, instance:boundryValueTest.TestCaseForBVA@3327bd23]" name="startApplication" is-config="true" duration-ms="13467" started-at="2019-11-20T17:12:04Z" finished-at="2019-11-20T17:12:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.irctc.co.in/nget/train-search]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startApplication -->
+        <test-method status="PASS" signature="executeBVATest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:boundryValueTest.TestCaseForBVA@3327bd23]" name="executeBVATest" duration-ms="48041" started-at="2019-11-20T17:12:17Z" data-provider="inputData" finished-at="2019-11-20T17:13:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abcrail1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Abcdefg89012]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Abcdefghij]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[abcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyz12345678@smail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- executeBVATest -->
+        <test-method status="PASS" signature="closeApplication()[pri:0, instance:boundryValueTest.TestCaseForBVA@3327bd23]" name="closeApplication" is-config="true" duration-ms="1082" started-at="2019-11-20T17:13:05Z" finished-at="2019-11-20T17:13:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+        <test-method status="PASS" signature="startApplication(java.lang.String)[pri:0, instance:boundryValueTest.TestCaseForBVA@3327bd23]" name="startApplication" is-config="true" duration-ms="12438" started-at="2019-11-20T17:13:07Z" finished-at="2019-11-20T17:13:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.irctc.co.in/nget/train-search]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startApplication -->
+        <test-method status="FAIL" signature="executeBVATest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:boundryValueTest.TestCaseForBVA@3327bd23]" name="executeBVATest" duration-ms="36532" started-at="2019-11-20T17:13:19Z" data-provider="inputData" finished-at="2019-11-20T17:13:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abcrail1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Abcdefg89012]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Abcdefghij]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[a@sma.com]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Invalid Data Input]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Invalid Data Input
+at org.testng.Assert.fail(Assert.java:96)
+at projectPages.RegisterationPage.verifyTest(RegisterationPage.java:81)
+at boundryValueTest.TestCaseForBVA.executeBVATest(TestCaseForBVA.java:26)
+at sun.reflect.GeneratedMethodAccessor2.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+at java.lang.Thread.run(Thread.java:748)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- executeBVATest -->
+        <test-method status="PASS" signature="closeApplication()[pri:0, instance:boundryValueTest.TestCaseForBVA@3327bd23]" name="closeApplication" is-config="true" duration-ms="1046" started-at="2019-11-20T17:13:55Z" finished-at="2019-11-20T17:13:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+        <test-method status="PASS" signature="startApplication(java.lang.String)[pri:0, instance:boundryValueTest.TestCaseForBVA@3327bd23]" name="startApplication" is-config="true" duration-ms="13172" started-at="2019-11-20T17:13:57Z" finished-at="2019-11-20T17:14:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.irctc.co.in/nget/train-search]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startApplication -->
+        <test-method status="PASS" signature="executeBVATest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:boundryValueTest.TestCaseForBVA@3327bd23]" name="executeBVATest" duration-ms="49719" started-at="2019-11-20T17:14:10Z" data-provider="inputData" finished-at="2019-11-20T17:14:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abcrail1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Abcdefg89012]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Abcdefghij]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[abcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyz123456789@smail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- executeBVATest -->
+        <test-method status="PASS" signature="closeApplication()[pri:0, instance:boundryValueTest.TestCaseForBVA@3327bd23]" name="closeApplication" is-config="true" duration-ms="1306" started-at="2019-11-20T17:14:59Z" finished-at="2019-11-20T17:15:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+        <test-method status="PASS" signature="startApplication(java.lang.String)[pri:0, instance:boundryValueTest.TestCaseForBVA@3327bd23]" name="startApplication" is-config="true" duration-ms="12773" started-at="2019-11-20T17:15:01Z" finished-at="2019-11-20T17:15:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.irctc.co.in/nget/train-search]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startApplication -->
+        <test-method status="PASS" signature="executeBVATest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:boundryValueTest.TestCaseForBVA@3327bd23]" name="executeBVATest" duration-ms="45489" started-at="2019-11-20T17:15:14Z" data-provider="inputData" finished-at="2019-11-20T17:15:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[yz1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Abcdefg89012]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Abcdefghij]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[abcdefghij@smail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- executeBVATest -->
+        <test-method status="PASS" signature="closeApplication()[pri:0, instance:boundryValueTest.TestCaseForBVA@3327bd23]" name="closeApplication" is-config="true" duration-ms="1106" started-at="2019-11-20T17:15:59Z" finished-at="2019-11-20T17:16:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+        <test-method status="PASS" signature="startApplication(java.lang.String)[pri:0, instance:boundryValueTest.TestCaseForBVA@3327bd23]" name="startApplication" is-config="true" duration-ms="13389" started-at="2019-11-20T17:16:00Z" finished-at="2019-11-20T17:16:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.irctc.co.in/nget/train-search]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startApplication -->
+        <test-method status="PASS" signature="executeBVATest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:boundryValueTest.TestCaseForBVA@3327bd23]" name="executeBVATest" duration-ms="45318" started-at="2019-11-20T17:16:13Z" data-provider="inputData" finished-at="2019-11-20T17:16:59Z">
           <params>
             <param index="0">
               <value>
@@ -507,14 +1375,376 @@ at java.lang.Thread.run(Thread.java:748)
             </param>
             <param index="1">
               <value>
-                <![CDATA[Abcdefg8]]>
+                <![CDATA[Abcdefg89012]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Abcdefghij]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[abcdefghij@smail.com]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- executeBVATest -->
-        <test-method status="PASS" signature="closeApplication()[pri:0, instance:boundryValueTest.TestCaseForBVA@14bf9759]" name="closeApplication" is-config="true" duration-ms="960" started-at="2019-10-01T00:58:29Z" finished-at="2019-10-01T00:58:30Z">
+        <test-method status="PASS" signature="closeApplication()[pri:0, instance:boundryValueTest.TestCaseForBVA@3327bd23]" name="closeApplication" is-config="true" duration-ms="1052" started-at="2019-11-20T17:16:59Z" finished-at="2019-11-20T17:17:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+        <test-method status="PASS" signature="startApplication(java.lang.String)[pri:0, instance:boundryValueTest.TestCaseForBVA@3327bd23]" name="startApplication" is-config="true" duration-ms="13082" started-at="2019-11-20T17:17:00Z" finished-at="2019-11-20T17:17:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.irctc.co.in/nget/train-search]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startApplication -->
+        <test-method status="PASS" signature="executeBVATest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:boundryValueTest.TestCaseForBVA@3327bd23]" name="executeBVATest" duration-ms="46658" started-at="2019-11-20T17:17:13Z" data-provider="inputData" finished-at="2019-11-20T17:18:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abcrail12]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Abcdefg89012]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Abcdefghij]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[abcdefghij@smail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- executeBVATest -->
+        <test-method status="PASS" signature="closeApplication()[pri:0, instance:boundryValueTest.TestCaseForBVA@3327bd23]" name="closeApplication" is-config="true" duration-ms="1091" started-at="2019-11-20T17:18:00Z" finished-at="2019-11-20T17:18:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+        <test-method status="PASS" signature="startApplication(java.lang.String)[pri:0, instance:boundryValueTest.TestCaseForBVA@3327bd23]" name="startApplication" is-config="true" duration-ms="12603" started-at="2019-11-20T17:18:01Z" finished-at="2019-11-20T17:18:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.irctc.co.in/nget/train-search]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startApplication -->
+        <test-method status="PASS" signature="executeBVATest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:boundryValueTest.TestCaseForBVA@3327bd23]" name="executeBVATest" duration-ms="45940" started-at="2019-11-20T17:18:13Z" data-provider="inputData" finished-at="2019-11-20T17:18:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abcrail1234]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Abcdefg89012]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Abcdefghij]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[abcdefghij@smail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- executeBVATest -->
+        <test-method status="PASS" signature="closeApplication()[pri:0, instance:boundryValueTest.TestCaseForBVA@3327bd23]" name="closeApplication" is-config="true" duration-ms="1131" started-at="2019-11-20T17:18:59Z" finished-at="2019-11-20T17:19:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+        <test-method status="PASS" signature="startApplication(java.lang.String)[pri:0, instance:boundryValueTest.TestCaseForBVA@3327bd23]" name="startApplication" is-config="true" duration-ms="12529" started-at="2019-11-20T17:19:00Z" finished-at="2019-11-20T17:19:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.irctc.co.in/nget/train-search]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startApplication -->
+        <test-method status="PASS" signature="executeBVATest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:boundryValueTest.TestCaseForBVA@3327bd23]" name="executeBVATest" duration-ms="46873" started-at="2019-11-20T17:19:13Z" data-provider="inputData" finished-at="2019-11-20T17:20:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abcrail123456]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Abcdefg89012]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Abcdefghij]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[abcdefghij@smail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- executeBVATest -->
+        <test-method status="PASS" signature="closeApplication()[pri:0, instance:boundryValueTest.TestCaseForBVA@3327bd23]" name="closeApplication" is-config="true" duration-ms="1067" started-at="2019-11-20T17:20:00Z" finished-at="2019-11-20T17:20:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+        <test-method status="PASS" signature="startApplication(java.lang.String)[pri:0, instance:boundryValueTest.TestCaseForBVA@3327bd23]" name="startApplication" is-config="true" duration-ms="13428" started-at="2019-11-20T17:20:01Z" finished-at="2019-11-20T17:20:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.irctc.co.in/nget/train-search]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startApplication -->
+        <test-method status="PASS" signature="executeBVATest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:boundryValueTest.TestCaseForBVA@3327bd23]" name="executeBVATest" duration-ms="46196" started-at="2019-11-20T17:20:14Z" data-provider="inputData" finished-at="2019-11-20T17:21:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abcrail12345678]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Abcdefg89012]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Abcdefghij]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[abcdefghij@smail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- executeBVATest -->
+        <test-method status="PASS" signature="closeApplication()[pri:0, instance:boundryValueTest.TestCaseForBVA@3327bd23]" name="closeApplication" is-config="true" duration-ms="1085" started-at="2019-11-20T17:21:00Z" finished-at="2019-11-20T17:21:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+        <test-method status="PASS" signature="startApplication(java.lang.String)[pri:0, instance:boundryValueTest.TestCaseForBVA@3327bd23]" name="startApplication" is-config="true" duration-ms="15279" started-at="2019-11-20T17:21:02Z" finished-at="2019-11-20T17:21:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.irctc.co.in/nget/train-search]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startApplication -->
+        <test-method status="PASS" signature="executeBVATest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:boundryValueTest.TestCaseForBVA@3327bd23]" name="executeBVATest" duration-ms="47590" started-at="2019-11-20T17:21:17Z" data-provider="inputData" finished-at="2019-11-20T17:22:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abcrail1234567890123456789012]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Abcdefg89012]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Abcdefghij]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[abcdefghij@smail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- executeBVATest -->
+        <test-method status="PASS" signature="closeApplication()[pri:0, instance:boundryValueTest.TestCaseForBVA@3327bd23]" name="closeApplication" is-config="true" duration-ms="1172" started-at="2019-11-20T17:22:04Z" finished-at="2019-11-20T17:22:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+        <test-method status="PASS" signature="startApplication(java.lang.String)[pri:0, instance:boundryValueTest.TestCaseForBVA@3327bd23]" name="startApplication" is-config="true" duration-ms="13016" started-at="2019-11-20T17:22:06Z" finished-at="2019-11-20T17:22:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.irctc.co.in/nget/train-search]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startApplication -->
+        <test-method status="PASS" signature="executeBVATest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:boundryValueTest.TestCaseForBVA@3327bd23]" name="executeBVATest" duration-ms="48462" started-at="2019-11-20T17:22:19Z" data-provider="inputData" finished-at="2019-11-20T17:23:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abcrail12345678901234567890123]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Abcdefg89012]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Abcdefghij]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[abcdefghij@smail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- executeBVATest -->
+        <test-method status="PASS" signature="closeApplication()[pri:0, instance:boundryValueTest.TestCaseForBVA@3327bd23]" name="closeApplication" is-config="true" duration-ms="1142" started-at="2019-11-20T17:23:07Z" finished-at="2019-11-20T17:23:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+        <test-method status="PASS" signature="startApplication(java.lang.String)[pri:0, instance:boundryValueTest.TestCaseForBVA@3327bd23]" name="startApplication" is-config="true" duration-ms="13314" started-at="2019-11-20T17:23:08Z" finished-at="2019-11-20T17:23:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.irctc.co.in/nget/train-search]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startApplication -->
+        <test-method status="FAIL" signature="executeBVATest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:boundryValueTest.TestCaseForBVA@3327bd23]" name="executeBVATest" duration-ms="36393" started-at="2019-11-20T17:23:22Z" data-provider="inputData" finished-at="2019-11-20T17:23:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[yz]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Abcdefg89012]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Abcdefghij]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[abcdefghij@smail.com]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Invalid Data Input]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Invalid Data Input
+at org.testng.Assert.fail(Assert.java:96)
+at projectPages.RegisterationPage.verifyTest(RegisterationPage.java:81)
+at boundryValueTest.TestCaseForBVA.executeBVATest(TestCaseForBVA.java:26)
+at sun.reflect.GeneratedMethodAccessor2.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+at java.lang.Thread.run(Thread.java:748)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- executeBVATest -->
+        <test-method status="PASS" signature="closeApplication()[pri:0, instance:boundryValueTest.TestCaseForBVA@3327bd23]" name="closeApplication" is-config="true" duration-ms="1060" started-at="2019-11-20T17:23:58Z" finished-at="2019-11-20T17:23:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+        <test-method status="PASS" signature="startApplication(java.lang.String)[pri:0, instance:boundryValueTest.TestCaseForBVA@3327bd23]" name="startApplication" is-config="true" duration-ms="13245" started-at="2019-11-20T17:23:59Z" finished-at="2019-11-20T17:24:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.irctc.co.in/nget/train-search]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startApplication -->
+        <test-method status="PASS" signature="executeBVATest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:boundryValueTest.TestCaseForBVA@3327bd23]" name="executeBVATest" duration-ms="46381" started-at="2019-11-20T17:24:12Z" data-provider="inputData" finished-at="2019-11-20T17:24:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abcrail123456789012345678901234]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Abcdefg89012]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Abcdefghij]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[abcdefghij@smail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- executeBVATest -->
+        <test-method status="PASS" signature="closeApplication()[pri:0, instance:boundryValueTest.TestCaseForBVA@3327bd23]" name="closeApplication" is-config="true" duration-ms="1089" started-at="2019-11-20T17:24:59Z" finished-at="2019-11-20T17:25:00Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeApplication -->

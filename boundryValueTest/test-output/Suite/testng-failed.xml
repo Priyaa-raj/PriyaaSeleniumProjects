@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite thread-count="3" guice-stage="DEVELOPMENT" verbose="5" name="Failed suite [Suite]" parallel="classes">
+<suite thread-count="4" guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="classes">
   <parameter name="url" value="https://www.irctc.co.in/nget/train-search"/>
-  <test thread-count="3" verbose="5" name="Test(failed)" parallel="classes">
+  <test thread-count="4" name="Test(failed)" parallel="classes">
     <classes>
       <class name="boundryValueTest.TestCaseForBVA">
         <methods>
-          <include name="executeBVATest" invocation-numbers="1 2 3 10"/>
+          <include name="executeBVATest" invocation-numbers="8 18 28 38"/>
           <include name="setData"/>
           <include name="closeApplication"/>
           <include name="startApplication"/>

@@ -15,11 +15,14 @@ public class TestCaseForBVA extends ProjectBase {
 
 	@Test
 	(dataProvider = "inputData")
-	public void executeBVATest(String uName, String pWord) throws InterruptedException, AWTException {
+	public void executeBVATest(String uName, String pWord,String secAns,String emailId) throws InterruptedException, AWTException {
 
 		new MainPage().resizePage().clickRegister()
 		.enterUsername(uName)
 		.enterPassword(pWord)
+		.chooseQuestion()
+		.enterSecAnswer(secAns)
+		.enterEmailId(emailId)
 		.verifyTest();
 }
 }
